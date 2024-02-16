@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-voting System</title>
+    <link rel="stylesheet" href="CSS/Stylesheet.css">
+</head>
+
+<body>
+    <div class="background"></div>
+    <h3>Enhance Secure E-Voting System Using Ethereum Blockchain </h3>
+<a href="IMG/bg.jpg"></a>
+    <section class="section">
+
+
+        <div class=" grid grid-two-column"></div>
+        <div class="container data section-data">
+
+            <h2>welcome to E-voting</h2>
+            <h2>System</h2>
+            <br>
+
+            <P>Already have an account?  <a href="login.html"><u>Login</u></a><br></P>
+            
+
+            <Pre>
+                    Greater Noida Institute Of Technology, Noida
+                       Department of the comoputer science and 
+                       engineering {Internet of things} Third 
+                              semester session 2023-24.
+                </Pre>
+            <button type="button" onclick="reset()">Learn More</button>
+        </div>
+
+
+        <form action="submit"  id="myForm" method="post" onsubmit="return validateForm()">
+
+            <div class="container login section-login">
+                <h2>SIGN UP</h2><br>
+
+                <label for="Name" id="label">NAME</label>
+                <input type="text" class="for" name="name" id="name" required placeholder="Enter Name"><br>
+                <span id="nameError" class="error"></span>
+
+                <label for="email" id="label">EMAIL</label>
+                <input type="text" class="for" name="email" id="email" required placeholder="e-voting@gmail.com"><br>
+                <span id="nameError" class="error"></span>
+
+                <label for="Password" id="label">PASSWORD</label>
+                <input type="password" class="for" name="password" id="password" minlength="6" required
+                    placeholder="**********"><br>
+                    <span id="nameError" class="error"></span>
+
+                <label for="DOB" id="label">DATE OF BIRTH</label>
+                <input type="date" class="for" name="dob" id="dob" required><br><br>
+                <span id="nameError" class="error"></span>
+
+                <button class="button" type="submit" value="submit" >Sign Up </button>
+            
+        </form>
+
+        </div>
+
+
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
